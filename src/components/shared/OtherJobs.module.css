@@ -5,6 +5,10 @@
 	border-bottom: 1px solid #606161;
 }
 
+.root:last-child {
+	border: 0;
+}
+
 .images {
 }
 .info {

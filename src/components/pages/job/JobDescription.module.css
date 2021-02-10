@@ -6,6 +6,9 @@
 	display: flex;
 	border-bottom: 1px solid gray;
 }
+.row:last-child {
+	border: 0;
+}
 .name {
 	flex: 1;
 }
