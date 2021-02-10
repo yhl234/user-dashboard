@@ -1,0 +1,22 @@
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	border-bottom: 1px solid #606161;
+}
+
+.images {
+}
+.info {
+	margin-left: 10px;
+}
+
+.info .rank {
+	color: #2692d1;
+}
+.info .type {
+	color: #606161;
+}
+.info .date {
+	color: #a6abaf;
+}

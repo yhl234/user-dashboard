@@ -1,0 +1,14 @@
+.root {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.fbIcon {
+	color: #46569f;
+	margin: 10px;
+}
+.root span {
+	text-align: center;
+	height: min-content;
+}

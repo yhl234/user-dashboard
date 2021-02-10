@@ -1,0 +1,42 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.root h3,
+.root p {
+	margin: 0;
+}
+.root p {
+	color: #a4aeb4;
+}
+.title {
+	flex: 2;
+}
+.actions {
+	flex: 1;
+	height: 40px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.icons {
+	color: #759fcf;
+	background: #ffffff;
+	border-radius: 100%;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+}
+.active {
+	color: #6fb93e;
+	margin: 0 5px;
+}
+.status {
+	background: #ffffff;
+	padding: 8px;
+	border-radius: 25px;
+	color: #7f8486;
+}

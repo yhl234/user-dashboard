@@ -1,0 +1,50 @@
+.root {
+	/* padding: 25px; */
+}
+
+/* tabs */
+.tabs {
+	border-bottom: 1px #a0c2d6 solid;
+	display: flex;
+	justify-content: start;
+	list-style: none;
+	padding: 0;
+}
+
+.tab {
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.tab a {
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.active {
+	border-bottom: 5px #a0c2d6 solid;
+}
+.active a {
+	color: #a0c2d6;
+}
+/* main */
+.main {
+	display: grid;
+	grid-template-areas:
+		"job social"
+		"job more";
+	grid-template-rows: 1fr 6fr;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 20px;
+}
+
+.job {
+	grid-area: job;
+}
+.social {
+	grid-area: social;
+}
+.more {
+	grid-area: more;
+}
