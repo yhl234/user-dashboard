@@ -2,10 +2,18 @@
 	box-sizing: border-box;
 	max-height: 100vh;
 	display: flex;
+	position: relative;
 }
 .content {
 	background: #eaeef1;
 	width: 100%;
 	overflow-y: scroll;
 	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 576px) {
+	.App {
+		display: block;
+		max-height: none;
+	}
 }

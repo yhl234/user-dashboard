@@ -1,9 +1,18 @@
+.header {
+	position: relative;
+}
 .root {
 	background: #fefefe;
 	height: 80px;
 	display: flex;
 	padding: 0 25px;
 }
+
+/* nav toggle */
+.navToggle {
+	display: none;
+}
+
 .search {
 	display: flex;
 	flex: 1;
@@ -59,4 +68,34 @@
 	justify-items: center;
 	align-items: center;
 	color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+	.root {
+		flex-direction: column;
+		height: max-content;
+	}
+
+	.root .search,
+	.root .nav,
+	.root .actions {
+		display: none;
+	}
+	.root.showNav .search,
+	.root.showNav .nav,
+	.root.showNav .actions {
+		display: flex;
+	}
+	.nav ul {
+		flex-direction: column;
+	}
+	.nav li {
+		justify-content: flex-end;
+	}
+	.navToggle {
+		display: flex;
+		height: 50px;
+		justify-content: flex-end;
+		align-items: center;
+	}
 }

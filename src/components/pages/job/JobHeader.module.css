@@ -11,10 +11,10 @@
 	color: #a4aeb4;
 }
 .title {
-	flex: 2;
+	flex: 2 1;
 }
 .actions {
-	flex: 1;
+	/* flex: 1 0; */
 	height: 40px;
 	display: flex;
 	justify-content: space-evenly;
@@ -29,6 +29,7 @@
 	display: grid;
 	justify-items: center;
 	align-items: center;
+	margin-left: 5px;
 }
 .active {
 	color: #6fb93e;
@@ -39,4 +40,20 @@
 	padding: 8px;
 	border-radius: 25px;
 	color: #7f8486;
+}
+
+@media only screen and (max-width: 576px) {
+	.root {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.title {
+		margin-bottom: 10px;
+	}
+	.status span {
+		display: none;
+	}
+	.status:hover span {
+		display: inline-block;
+	}
 }

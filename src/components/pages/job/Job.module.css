@@ -6,7 +6,7 @@
 .tabs {
 	border-bottom: 1px #a0c2d6 solid;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	list-style: none;
 	padding: 0;
 }
@@ -34,7 +34,7 @@
 	grid-template-areas:
 		"job social"
 		"job more";
-	grid-template-rows: 1fr 6fr;
+	grid-template-rows: 1fr auto;
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 20px;
 }
@@ -47,4 +47,21 @@
 }
 .more {
 	grid-area: more;
+}
+
+@media only screen and (max-width: 576px) {
+	.tabs {
+		flex-direction: column;
+		border: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main {
+		grid-template-areas:
+			"job"
+			"social"
+			"more";
+		grid-template-columns: 1fr;
+	}
 }

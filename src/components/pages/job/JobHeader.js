@@ -23,7 +23,7 @@ const JobHeader = () => {
           <span>Active</span>
         </div>
         <div className={styles.icons}>
-          <FontAwesomeIcon icon={faRedoAlt} size="1x" rotation={135} />
+          <FontAwesomeIcon icon={faRedoAlt} size="1x" />
         </div>
         <div className={styles.icons}>
           <FontAwesomeIcon icon={faEdit} size="1x" />
