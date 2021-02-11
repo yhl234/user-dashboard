@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	border-bottom: 1px solid #606161;
+	border-bottom: 1px solid #e2e6e6;
 }
 
 .root:last-child {
@@ -16,11 +16,11 @@
 }
 
 .info .rank {
-	color: #2692d1;
+	color: #30aaf0;
 }
 .info .type {
-	color: #606161;
+	color: #6e7882;
 }
 .info .date {
-	color: #a6abaf;
+	color: #879196;
 }

@@ -8,7 +8,8 @@
 	margin: 0;
 }
 .root p {
-	color: #a4aeb4;
+	color: #879196;
+	font-size: 0.8rem;
 }
 .title {
 	flex: 2 1;
@@ -20,7 +21,7 @@
 	justify-content: space-evenly;
 }
 .icons {
-	color: #759fcf;
+	color: #30aaf0;
 	background: #ffffff;
 	border-radius: 100%;
 	height: 40px;

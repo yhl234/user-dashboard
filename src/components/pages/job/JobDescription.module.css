@@ -3,14 +3,16 @@
 }
 .row {
 	display: flex;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #e2e6e6;
 }
 .row:last-child {
 	border: 0;
 }
 .name {
 	flex: 1;
+	color: #879196;
 }
 .value {
 	flex: 2;
+	color: #6e7882;
 }

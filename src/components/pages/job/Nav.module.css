@@ -42,7 +42,7 @@
 .nav a {
 	display: block;
 	text-decoration: none;
-	color: gray;
+	color: #879196;
 	height: 100%;
 	text-align: center;
 	padding: 10px;
@@ -50,8 +50,11 @@
 }
 
 .nav .active {
-	color: #a0c2d6;
-	border-bottom: 2px solid #a0c2d6;
+	border-bottom: 5px solid #30aaf0;
+}
+
+.nav .active a {
+	color: #30aaf0;
 }
 .actions {
 	flex: 1;
@@ -67,7 +70,7 @@
 	display: grid;
 	justify-items: center;
 	align-items: center;
-	color: gray;
+	color: #879196;
 }
 
 @media only screen and (max-width: 768px) {
