@@ -48,7 +48,7 @@ const index = () => {
             <li>
               <a href="#">
                 <div className={styles.navIcons}>
-                  <FontAwesomeIcon icon={faLaptop} size="3x" />
+                  <FontAwesomeIcon icon={faLaptop} size="2x" />
                 </div>
                 <div>dashboard</div>
               </a>
@@ -56,7 +56,7 @@ const index = () => {
             <li className={styles.active}>
               <a href="#">
                 <div className={styles.navIcons}>
-                  <FontAwesomeIcon icon={faBuilding} size="3x" />
+                  <FontAwesomeIcon icon={faBuilding} size="2x" />
                 </div>
                 jobs
               </a>
@@ -64,7 +64,7 @@ const index = () => {
             <li>
               <a href="#">
                 <div className={styles.navIcons}>
-                  <FontAwesomeIcon icon={faFileAlt} size="3x" />
+                  <FontAwesomeIcon icon={faFileAlt} size="2x" />
                 </div>
                 see docs
               </a>
@@ -72,7 +72,7 @@ const index = () => {
             <li>
               <a href="#">
                 <div className={styles.navIcons}>
-                  <FontAwesomeIcon icon={faUser} size="3x" />
+                  <FontAwesomeIcon icon={faUser} size="2x" />
                 </div>
                 connections
               </a>

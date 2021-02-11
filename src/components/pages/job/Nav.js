@@ -28,7 +28,7 @@ const Nav = () => {
         </div>
         <div className={styles.search}>
           <div className={styles.icons}>
-            <FontAwesomeIcon icon={faSearch} size="2x" />
+            <FontAwesomeIcon icon={faSearch} size="1x" />
           </div>
         </div>
         <nav className={styles.nav}>
@@ -49,13 +49,13 @@ const Nav = () => {
         </nav>
         <div className={styles.actions}>
           <div className={styles.icons}>
-            <FontAwesomeIcon icon={faCog} size="2x" />
+            <FontAwesomeIcon icon={faCog} size="1x" />
           </div>
           <div className={styles.icons}>
-            <FontAwesomeIcon icon={faEnvelope} size="2x" />
+            <FontAwesomeIcon icon={faEnvelope} size="1x" />
           </div>
           <div className={styles.icons}>
-            <FontAwesomeIcon icon={faSignOutAlt} size="2x" />
+            <FontAwesomeIcon icon={faSignOutAlt} size="1x" />
           </div>
         </div>
       </div>
