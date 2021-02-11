@@ -71,6 +71,22 @@
 	justify-items: center;
 	align-items: center;
 	color: #879196;
+	position: relative;
+}
+.badges {
+	background: #30aaf0;
+	color: white;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 15px;
+	width: 15px;
+	padding: 1px;
+	font-size: 80%;
+	border-radius: 100%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
 }
 
 @media only screen and (max-width: 768px) {

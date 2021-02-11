@@ -53,6 +53,7 @@ const Nav = () => {
           </div>
           <div className={styles.icons}>
             <FontAwesomeIcon icon={faEnvelope} size="1x" />
+            <span className={styles.badges}>4</span>
           </div>
           <div className={styles.icons}>
             <FontAwesomeIcon icon={faSignOutAlt} size="1x" />
