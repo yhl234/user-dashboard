@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import Card from '../../shared/UI/Card';
 import OtherJobs from '../../shared/OtherJobs';
 import SocialShare from '../../shared/SocialShare';
@@ -61,7 +63,7 @@ const Job = () => {
             <SocialShare />
           </Card>
         </section>
-        <section className={styles.other}>
+        <section className={styles.more}>
           <Card>
             <h3>Other Jobs</h3>
             {otherJobs.map((j, i) => (
@@ -73,6 +75,9 @@ const Job = () => {
                 index={i}
               />
             ))}
+            <div className={styles.icons}>
+              <FontAwesomeIcon icon={faEllipsisH} size="1x" />
+            </div>
           </Card>
         </section>
       </main>

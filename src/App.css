@@ -1,5 +1,4 @@
 .App {
-	box-sizing: border-box;
 	max-height: 100vh;
 	display: flex;
 	position: relative;
@@ -16,4 +15,18 @@
 		display: block;
 		max-height: none;
 	}
+}
+
+/* color reference only */
+.color-reference {
+	/* text primary */
+	color: #6e7882;
+	/* text secondary */
+	color: #879196;
+	/* line */
+	color: #e2e6e6;
+	/* main blue */
+	color: #2759ad;
+	/* hight blue */
+	color: #30aaf0;
 }

@@ -10,6 +10,7 @@ const index = () => {
     <div>
       <Nav />
       <div className={styles.root}>
+        {/* router */}
         <JobHeader />
         <Job />
       </div>

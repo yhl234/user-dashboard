@@ -8,7 +8,6 @@ import {
   faCog,
   faSignOutAlt,
   faSearch,
-  faArrowUp,
   faEllipsisH,
 } from '@fortawesome/free-solid-svg-icons';
 import styles from './Nav.module.css';

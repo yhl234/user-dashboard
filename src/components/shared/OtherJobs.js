@@ -7,12 +7,11 @@ const OtherJobs = ({
   date = '20 Aug 2016',
   index = 0,
 }) => {
-  // 123
   return (
     <div className={styles.root}>
       <div className={styles.images}>
         <img
-          src={`https://picsum.photos/100/100?random=${index}`}
+          src={`https://picsum.photos/80/80?random=${index}`}
           alt="company logo"
         />
       </div>

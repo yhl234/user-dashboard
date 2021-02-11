@@ -5,14 +5,13 @@
 	border-bottom: 1px solid #e2e6e6;
 }
 
-.root:last-child {
+.root:nth-last-of-type(2) {
 	border: 0;
 }
 
-.images {
-}
 .info {
 	margin-left: 10px;
+	/* font-size: 0.8rem; */
 }
 
 .info .rank {
@@ -20,7 +19,10 @@
 }
 .info .type {
 	color: #6e7882;
+	margin-top: 0;
 }
 .info .date {
 	color: #879196;
+	font-size: 0.8rem;
+	margin-top: 0;
 }

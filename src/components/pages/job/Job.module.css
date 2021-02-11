@@ -49,6 +49,17 @@
 	grid-area: more;
 }
 
+.icons {
+	height: 40px;
+	width: 100%;
+	cursor: pointer;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	color: #879196;
+	position: relative;
+}
+
 @media only screen and (max-width: 576px) {
 	.tabs {
 		flex-direction: column;
@@ -56,7 +67,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 	.main {
 		grid-template-areas:
 			"job"
